@@ -257,3 +257,133 @@ body{
 	height: auto;
 	margin-top: 0;
 }
+
+
+@media screen and (max-width: 900px) {
+	.resume{
+		width: 600px;
+		display: flex;
+	}
+	.left{
+		width: 250px;
+		padding: 0 20px;
+	}
+	.right .name{
+		font-size: 25px;
+	}
+	.title{
+		font-size: 20px;
+	}
+	
+}
+@media screen and (max-width: 600px) {
+	.resume{
+		width: 500px;
+		display: flex;
+	
+		
+	}
+	.left{
+		width: 220px;
+		padding: 0 15px;
+	}
+	.contact .social i{
+		font-size: 20px;
+		margin-right: 1.5rem;
+	}
+	.skills .li_wrap, .hobbies .li_wrap{
+		width: 80px;
+		height: 80px;
+		margin-top: 1rem;
+	}
+	.header{
+		padding: 15px 10px;
+		margin-right: -1.9rem;
+	}
+	.title{
+		font-size: 16px;
+	}
+	.right .name{
+		font-size: 20px;
+	}
+	.right .role{
+		font-size: 17px;
+	}
+	.right .about{
+		font-size: 14px;
+	}
+	.right_inner .li_wrap .date {
+		width: 80px;
+		font-size: 15px;
+	}
+	.right_inner .li_wrap .info_title{
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 1px;
+		font-size: 14px;
+		width: 120px;
+	}
+	.right_inner .li_wrap .info_com{
+		width: 120px;
+	}
+	.right_inner .li_wrap .info_cont{
+		font-size: 15px;
+		width: 120px;
+	}
+}
+@media screen and (max-width: 490px) {
+	
+	.wrapper .resume{
+		width: 150px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.left{
+		width: 300px;
+	}
+	.title{
+		font-size: 15px;
+	}
+	.contact .social i{
+		font-size: 25px;
+		margin-left: 2rem;
+	}
+	.right{
+		width: 300px;
+		background: #fff;
+	}
+	.skills .li_wrap, .hobbies .li_wrap{
+		width: 80px;
+		height: 80px;
+		margin-top: 1rem;
+	}
+	.header{
+		margin-top: -2rem;
+		height: 250px;
+		padding-left: 17px;
+		width: 300px;
+	}
+	.right .name{
+		font-size: 20px;
+	}
+	.right .role{
+		font-size: 17px;
+	}
+	.right .about{
+		font-size: 14px;
+	}
+	.right_inner .li_wrap .date {
+		width: 80px;
+		font-size: 15px;
+	}
+	.right_inner .li_wrap .info_title{
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 1px;
+		font-size: 14px;
+	}
+	.right_inner .li_wrap .info_cont{
+		font-size: 13px;
+	}
+}
